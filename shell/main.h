@@ -9,4 +9,6 @@
 #include <fcntl.h>
 #include <stdlib.h>
 
+void prompt(void);
+
 #endif /* MAIN */
