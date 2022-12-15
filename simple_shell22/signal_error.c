@@ -6,7 +6,7 @@
  */
 void handle_signal(int signal)
 {
-	char *prompt = {"\n$$"};
+	char *prompt = {"\n$$"}; /*print prompt on newline*/
 	(void) signal;
 
 	write(STDOUT_FILENO, prompt, _strlen(prompt));
